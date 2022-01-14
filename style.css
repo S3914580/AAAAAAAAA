@@ -276,17 +276,21 @@ Team Profile Section Styling
     background: linear-gradient(146deg, rgba(32,9,62,1) 0%, rgba(51,13,101,1) 57%, rgba(98,52,159,1) 90%, rgba(165,145,193,1) 98%);
 }
 .Box2 img{
-    width: 95%;
+    width: 350px;
     height: 300px;
+    object-fit: cover;
     margin: auto;
     border-radius: 40px;
     display: flex;
     justify-content: center;
+    border: 5px solid mediumvioletred;
 
 }
 
 .Box2 img:hover{
-    box-shadow: 20px 20px 8px 10px rgba(16, 82, 95, 0.7);
+    box-shadow: -10px -10px 8px 10px rgba(15, 116, 136, 0.7);
+    animation: zoomInOut 6s ease infinite;
+    background: 200%;
 }
 
 .Mainpage2{
@@ -319,7 +323,6 @@ Team Profile Section Styling
 .Mainpage2 .Container .Box2 {
     background: transparent;
     width: 400px;
-    border: 3px solid rgb(37, 34, 34);
     padding: 50px;
     margin: 20px;
     align-items:center;
@@ -341,7 +344,5 @@ Team Profile Section Styling
 }
 
 .Mainpage2 .Container .Box2 a:hover{
-    color: mediumvioletred;
+    text-shadow: 2px 2px 5px rgba(62, 189, 214, 0.7);
 }
-
-
