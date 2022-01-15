@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <script src="//code.jquery.com/jquery.min.js"></script>
+    <script>src="https://code.jquery.com/jquery-3.6.0.min.js"</script>
+    <title>Assignment 3: Our IT Project</title>
+</head>
+<body>
+    <div class="nav_bar" id="nav-holder"></div>
+    <script>
+        $.get("nav.html", function(data){
+            $("#nav-holder").replaceWith(data);
+        });
+    </script>
+    <script src="script.js">
+    
+    </script>
+</body>
+</html>
