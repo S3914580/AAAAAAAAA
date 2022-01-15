@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <script src="//code.jquery.com/jquery.min.js"></script>
+    <script>src="https://code.jquery.com/jquery-3.6.0.min.js"</script>
+    <title>Assignment 3: Our IT Project</title>
+</head>
+<body>
+    <div class="nav_bar" id="nav-holder"></div>
+    <script>
+        $.get("nav.html", function(data){
+            $("#nav-holder").replaceWith(data);
+        });
+    </script>
+    
+    <section class="homepage" id="homepage">
+        <div class="menu">
+            <div class="homepage_content">
+                <div class="heading">
+                    Chan<span>grett</span> Hel1um
+                </div>
+                <div class="text">
+                   We are IT professionals
+                </div>
+                <a href="#" class="contactUs contact" >Contact Us</a>
+            </div>
+        </div>
+        <div class="scroll_guild" id="scroll_guild">
+            Press <span>'Enter'</span> to scroll down
+        </div>
+        <div class="arrow" id="arrow">
+        </div>
+    </section>
+    
+    <section class="aboutUs sec-padding" id="aboutUs">
+        <div class="container">
+            <div class="row">
+                <div class="section_content">
+                    <h1>
+                        -- About Changrett Hel1um --
+                    </h1>
+                    <h2>
+                        Our Story
+                    </h2>
+                    <p>
+                        Make the most of our security features to keep your money safe – turn on push notifications, register for NetCode, review your payment limits, and stay in control of your cards with our Lock, Block and Limit feature. Also remember to enable location based security in the CommBank app to help us identify and prevent suspicious activity from unexpected places.
+                        <br>
+                        Take some time to think about whether the request for payment is genuine – if it doesn’t feel right, it probably isnt. 
+                        <br>
+                        Talk with trusted friends and family members before making payments to new or unusual beneficiaries, especially if you are being pressured to make a payment quickly. Lastly, remain vigilant and never give your details, such as passwords, PINs or NetCodes to anyone.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="team_profile" id="team_profile">
+        <div class="container">
+            <div class="row">
+                <div class="Mainpage2">
+                    <h1>-- Members --</h1>
+                    <div class="Container">
+                        
+                        <div class="Box2" style="flex:1">
+                            <a href="#"><img src="material/tp4.jpg" alt=""></a>
+                            <a href="HoangSon.html" >Hoang Son Vu</a>
+                            <p>Group Leader and Web Developer</p>
+                            <p>ID: s3921295</p>
+                        </div>
+            
+                        <div class="Box2" style="flex:1">
+                            <a href="#"><img src="material/tp3.jpg" alt=""></a>
+                            <a href="KhangLam.html" >Nhi Lam Khang</a>
+                            <p>Documenter</p>
+                            <p>ID: s3914580</p>
+                        </div>
+                    </div>
+            
+                    <div class="Container">
+                        <div class="Box2" style="flex:1">
+                            <a href="#"><img src="material/tp2.jpg" alt=""></a>
+                            <a href="AnhVyBui.html" >Bui Anh Vy</a>
+                            <p>Contributer</p>
+                            <p>ID: s3891641</p>
+                        </div>
+            
+                        <div class="Box2" style="flex:1">
+                            <a href="#"><img src="material/tp1.jpg" alt=""></a>
+                            <a href="HaVietPham.html" >Pham Viet Ha</a>
+                            <p>GitHub Management</p>
+                            <p>ID: s3927580 </p>
+                        </div>
+                    </div>
+            </div>
+        </div>
+    </section>
+    <div class="copyright">
+        <p>
+            © Copyright 2021 Changrett Hel1um. All rights reserved.
+        </p>
+    </div>
+    <script src="script.js">
+    </script>
+</body>
+</html>
