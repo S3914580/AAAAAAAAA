@@ -75,7 +75,7 @@
     font-weight: 700;
 }
 
-.nav_bar.sticky_navbar{
+.nav_bar .sticky_navbar{
     padding: 10px 0;
     background: linear-gradient(153deg, rgba(34, 195, 168, 0.5) 63%, rgba(45,253,128,.5) 100%);
 }
@@ -313,6 +313,12 @@
   }
 
 /* About Us Section Styling */
+.aboutUsSection{
+    display: block;
+    overflow: hidden;
+    background: rgba(255, 192, 203, 0.295);
+}
+
 .aboutUs{
     border-style: solid;
     border-width: 5px;
@@ -437,6 +443,7 @@ Team Profile Section Styling
 .contentSection {
     display: block;
     overflow: hidden;
+    background: rgba(255, 192, 203, 0.295);
 }
 
  .content {
@@ -492,10 +499,109 @@ Team Profile Section Styling
     padding: 50px;
 }
 
-.GroupProfile2 h2{
+.GroupProfile2 h1{
     color: hotpink;
     text-align: center;
     padding: 10px;
+}
+
+.GroupProfile2 li{
+    color: rgb(255, 255, 255);
+    text-align: justify;
+    font-size: 20px;
+    padding-left: 50px;
+}
+
+/* Other information of members */
+.otherInfo{
+    position: relative;
+    height: 900px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: black;
+    background: linear-gradient(146deg, rgba(32,9,62,1) 0%, rgba(51,13,101,1) 57%, rgba(98,52,159,1) 90%, rgba(165,145,193,1) 98%);
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 20px;
+    margin-top: 50px;
+    border-radius: 20px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    text-align: justify;
+    font-size: 20px;
+    padding-left: 20px;
+}
+
+.otherInfo p{
+    color: rgb(255, 255, 255);
+    text-align: justify;
+    font-size: 20px;
+    padding: 50px;
+}
+
+.otherInfo h1{
+    color: hotpink;
+    text-align: center;
+    padding: 10px;
+}
+
+.otherInfo ul{
+    color: rgb(255, 255, 255);
+    text-align: justify;
+    font-size: 20px;
+    padding-left: 20px;
+}
+
+.otherInfo .container_Ha {
+    display: flex;
+    justify-content: center;
+}
+
+.otherInfo .container_Ha div {
+    position: relative;
+    border-style: solid;
+    border-width: 5px;
+    border-color: black;
+    border-radius: 55px;
+    background-color: rgba(255, 255, 255, 0.555);
+    color: black;
+    margin: 20px;
+    width: 300px;
+    height: 50px;
+    text-align: center;
+    float: left;
+}
+
+.otherInfo .container_Ha .imgContainer {
+    position: absolute;
+    width: 1000px;
+    height: 600px;
+    background: rgba(255, 255, 255, 0.548);
+    border-style: solid;
+    border-width: 5px;
+    border-color: black;
+    margin-top: 100px
+}
+
+.otherInfo .container_Ha .image1:hover ~ #imgContainer {
+    background-image: url("material/picture1.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.otherInfo .container_Ha .image2:hover ~ #imgContainer {
+    background-image: url("material/picture2.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.otherInfo .container_Ha .image3:hover ~ #imgContainer {
+    background-image: url("material/picture3.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain
 }
 
  /* Copyright at the footer of each page */
