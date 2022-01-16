@@ -75,9 +75,9 @@
     font-weight: 700;
 }
 
-.nav_bar .sticky_navbar{
+.nav_bar.sticky_navbar{
     padding: 10px 0;
-    background: linear-gradient(153deg, rgba(34, 195, 168, 0.5) 63%, rgba(45,253,128,.5) 100%);
+    background: linear-gradient(153deg, rgba(34,195,169,1) 63%, rgba(45,253,128,1) 100%);
 }
 
 .nav_bar.sticky_navbar .nav_item li a:hover{
@@ -198,7 +198,7 @@
 /* Homepage styling */
 .homepage{
     display: flex;
-    background: linear-gradient(rgba(4,9,10,0.7), rgba(4,9,10,0.7)),url(material/melbourne3.jpg) no-repeat center;
+    background: linear-gradient(rgba(4,9,10,0.7), rgba(4,9,10,0.7)),url(/material/melbourne3.jpg) no-repeat center;
     height: 100vh;
     background-size: 100% auto;
     min-height: 500px;
@@ -313,12 +313,6 @@
   }
 
 /* About Us Section Styling */
-.aboutUsSection{
-    display: block;
-    overflow: hidden;
-    background: rgba(255, 192, 203, 0.295);
-}
-
 .aboutUs{
     border-style: solid;
     border-width: 5px;
