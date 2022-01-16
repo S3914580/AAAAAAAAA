@@ -552,12 +552,12 @@ Team Profile Section Styling
     padding-left: 20px;
 }
 
-.otherInfo .container_Ha {
+.otherInfo .container_Ha, .otherInfo .container_Vy, .otherInfo .container_Khang, .otherInfo .container_Son {
     display: flex;
     justify-content: center;
 }
 
-.otherInfo .container_Ha div {
+.otherInfo .container_Ha div, .otherInfo .container_Vy div, .otherInfo .container_Khang div, .otherInfo .container_Son div {
     position: relative;
     border-style: solid;
     border-width: 5px;
@@ -572,7 +572,7 @@ Team Profile Section Styling
     float: left;
 }
 
-.otherInfo .container_Ha .imgContainer {
+.otherInfo .container_Ha .imgContainer, .otherInfo .container_Vy .imgContainer, .otherInfo .container_Khang .imgContainer, .otherInfo .container_Son .imgContainer {
     position: absolute;
     width: 1000px;
     height: 600px;
@@ -599,6 +599,69 @@ Team Profile Section Styling
 
 .otherInfo .container_Ha .image3:hover ~ #imgContainer {
     background-image: url("material/picture3.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain
+}
+
+.otherInfo .container_Vy .image1:hover ~ #imgContainer {
+    background-image: url("material/picture4.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.otherInfo .container_Vy .image2:hover ~ #imgContainer {
+    background-image: url("material/picture5.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.otherInfo .container_Vy .image3:hover ~ #imgContainer {
+    background-image: url("material/picture6.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain
+}
+
+.otherInfo .container_Khang .image1:hover ~ #imgContainer {
+    background-image: url("material/picture7.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.otherInfo .container_Khang .image2:hover ~ #imgContainer {
+    background-image: url("material/picture8.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.otherInfo .container_Khang .image3:hover ~ #imgContainer {
+    background-image: url("material/picture9.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain
+}
+
+.otherInfo .container_Son .image1:hover ~ #imgContainer {
+    background-image: url("material/picture10.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.otherInfo .container_Son .image2:hover ~ #imgContainer {
+    background-image: url("material/picture11.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.otherInfo .container_Son .image3:hover ~ #imgContainer {
+    background-image: url("material/picture12.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain
