@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <script src="//code.jquery.com/jquery.min.js"></script>
+    <script>src="https://code.jquery.com/jquery-3.6.0.min.js"</script>
+    <title>Assignment 3: Our IT Project</title>
+</head>
+<body>
+    <div class="nav_bar" id="nav-holder"></div>
+    <script>
+        $.get("nav.html", function(data){
+            $("#nav-holder").replaceWith(data);
+        });
+    </script>
+    <script src="script.js">
+    
+    </script>
+    <section class="homepage" id="homepage">
+        <div class="menu">
+            <div class="homepage_content">
+                <div class="heading">
+                    Chan<span>grett</span> Hel1um
+                </div>
+                <div class="text">
+                   We are IT professionals
+                </div>
+                <a href="aaaa@example.com" class="contactUs contact" >Contact Us</a>
+            </div>
+        </div>
+        <div class="scroll_guild" id="scroll_guild">
+            Press <span>'Enter'</span> to scroll down
+        </div>
+        <div class="arrow" id="arrow">
+        </div>
+    </section>
+    <section class="contentSection">
+        <div class="content">
+            <h1>Ha Viet Pham</h1>
+            <h2>Group Leader and Web Developer</h2> 
+                <p>
+                    Prior to joining RMIT, I was a student at Prior to joining RMIT, I was a student at  Swinburne in Melbourne, Australia. 
+                    I finished the Diploma of Information  Technology and 1.5 year of the Bachelor of  Computer Science. But due to the pandemic  situation, I had to go back to Viet Nam and  postponed my studies in Australia. 
+                    After a year of waiting to continue in Australia,  I decided to transfer to RMIT in Vietnam to  continue. 
+                    <b>Completed a GameDevHQ Unity course</b>
+                </p>
+
+        </div>
+        <div class="GroupProfile2">
+            <h1>
+                IT interest
+            </h1>
+            <p>
+                Despite having completed the Diploma of IT in Swinburne, IT is not my forte and I am not at all  interested in IT. 
+                I am more interested in Computer science, which is in the making of games.
+                Even without any interest, I am able to understand the importance of IT in Game Development and also what IT skills you can learn from Game Dev like:
+                <li>Programming logic from making games, </li>
+                <li>Online tools and search engine used to research on the game or the process of making it,</li>
+                <li>Files and Directories, Compile from exporting games from the engine,</li>
+                <li>Flash memory, cloud storage and operating system compatibility from copying game files  from systems to systems,</li>
+                <li>Debugging and software revisions from responding to count less errors during the  development process.</li>
+            </p>
+        </div>
+        <div class="otherInfo">
+            <h1>
+                Other Information
+            </h1>
+            <div class="container_Ha">
+                <div class="image1">Personality Test</div>
+                <div class="image2">Learning Style</div>
+                <div class="image3">Creativity quiz</div>
+                <div class="imgContainer" id="imgContainer"></div>
+            </div>
+            
+        </div>
+    </section>
+    <div class="copyright">
+        <p>
+            © Copyright 2021 Changrett Hel1um. All rights reserved.
+        </p>
+    </div>
+    <script src="script.js">
+    
+    </script>
+</body>
+</html>
