@@ -592,70 +592,70 @@ Team Profile Section Styling
 }
 
 .otherInfo .container_Ha .image3:hover ~ #imgContainer {
-    background-image: url("/material/picture3.png");
+    background-image: url("/material/Picture3.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain
 }
 
 .otherInfo .container_Vy .image1:hover ~ #imgContainer {
-    background-image: url("/material/picture4.png");
+    background-image: url("/material/Picture4.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
 }
 
 .otherInfo .container_Vy .image2:hover ~ #imgContainer {
-    background-image: url("/material/picture5.png");
+    background-image: url("/material/Picture5.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
 }
 
 .otherInfo .container_Vy .image3:hover ~ #imgContainer {
-    background-image: url("/material/picture6.png");
+    background-image: url("/material/Picture6.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain
 }
 
 .otherInfo .container_Khang .image1:hover ~ #imgContainer {
-    background-image: url("/material/picture7.png");
+    background-image: url("/material/Picture7.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
 }
 
 .otherInfo .container_Khang .image2:hover ~ #imgContainer {
-    background-image: url("/material/picture8.png");
+    background-image: url("/material/Picture8.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
 }
 
 .otherInfo .container_Khang .image3:hover ~ #imgContainer {
-    background-image: url("/material/picture9.png");
+    background-image: url("/material/Picture9.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain
 }
 
 .otherInfo .container_Son .image1:hover ~ #imgContainer {
-    background-image: url("/material/picture10.png");
+    background-image: url("/material/Picture10.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
 }
 
 .otherInfo .container_Son .image2:hover ~ #imgContainer {
-    background-image: url("/material/picture11.png");
+    background-image: url("/material/Picture11.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
 }
 
 .otherInfo .container_Son .image3:hover ~ #imgContainer {
-    background-image: url("/material/picture12.png");
+    background-image: url("/material/Picture12.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain
