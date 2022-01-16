@@ -9,11 +9,6 @@ $(document).ready(function(){
     })
 });
 
-// Animation on scroll
-window.addEventListener("load", function()){
-    AOS.init();
-}
-
 // Press 'Enter' to automatically scroll down
 
 let scrollerID;
